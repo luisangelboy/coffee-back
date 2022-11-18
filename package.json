@@ -1,0 +1,36 @@
+{
+  "name": "cafipos_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f .env nodemon ./index.js",
+    "dev:production": "env-cmd -f .env.production nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.24.1",
+    "apollo-server-express": "^2.25.1",
+    "aws-sdk": "^2.926.0",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^9.0.2",
+    "env-cmd": "^10.1.0",
+    "fetch": "^1.1.0",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.5",
+    "mongoose-aggregate-paginate-v2": "^1.0.6",
+    "mongoose-float": "^1.0.4",
+    "mongoose-paginate-v2": "^1.7.0",
+    "node": "^12.14.1",
+    "nodemon": "^2.0.13"
+  },
+  "resolutions": {
+    "fs-capacitor": "3.0.0"
+  }
+}
